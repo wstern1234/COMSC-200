@@ -84,7 +84,7 @@ int main() {
 
     cout << "Part 2" << endl;
 
-    // CAN'T DO LETTERS FOR LINE 88 & 90
+    // CAN'T DO LETTERS FOR LINE 88 & 90, THEY ARE PURPOSELY MESSED UP
     cout << getChoice("seven", "eleven", 7, 11) << endl;
     cout << getChoice("w", "s", 'w', 's') << endl << endl;
     cout << getChoice("x","y", 1, 2) << endl << endl;
