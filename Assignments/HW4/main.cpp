@@ -157,15 +157,17 @@ public:
 
     MgrShape() {
 
-        string line;
+        // Got bored of naming it line, chair instead
+        string chair;
+        
         ifstream myfile;
         myfile.open("shaperecords.txt");
         if (myfile.is_open()) {
 
             while (!myfile.eof()) {
 
-                getline(myfile, line);
-                populateShapeData(line);
+                getline(myfile, chair);
+                populateShapeData(chair);
 
 
             }
